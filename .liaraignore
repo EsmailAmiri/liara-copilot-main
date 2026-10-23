@@ -1,0 +1,16 @@
+node_modules
+.next
+dist
+.git
+.github
+coverage
+*.sqlite
+*.sqlite-journal
+data
+gui-test-screenshots
+docs
+.vscode
+.idea
+*.log
+.turbo
+capabilities.local.json

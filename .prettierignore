@@ -1,0 +1,9 @@
+dist
+node_modules
+.next
+coverage
+*.sqlite
+*.sqlite-journal
+pnpm-lock.yaml
+*.md
+next-env.d.ts

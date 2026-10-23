@@ -1,0 +1,5 @@
+{
+  "app": "copilot-api",
+  "platform": "docker",
+  "port": 3001
+}

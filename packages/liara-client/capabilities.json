@@ -1,0 +1,172 @@
+[
+  {
+    "id": "auth.verify",
+    "label": "احراز هویت توکن API / Token verification",
+    "status": "supported",
+    "via": "api",
+    "notes": "Verified (demo@liara.ir)",
+    "lastCheckedAt": "2026-10-23T13:35:24.719Z"
+  },
+  {
+    "id": "apps.list",
+    "label": "لیست برنامه‌ها / List apps",
+    "status": "supported",
+    "via": "api",
+    "notes": "Found 1 apps",
+    "lastCheckedAt": "2026-10-23T13:35:24.719Z"
+  },
+  {
+    "id": "apps.get",
+    "label": "جزئیات برنامه / App details",
+    "status": "supported",
+    "via": "api",
+    "lastCheckedAt": "2026-10-23T13:35:24.719Z"
+  },
+  {
+    "id": "apps.create",
+    "label": "ایجاد برنامه جدید / Create app",
+    "status": "supported",
+    "via": "api",
+    "lastCheckedAt": "2026-10-23T13:35:24.719Z"
+  },
+  {
+    "id": "apps.delete",
+    "label": "حذف برنامه / Delete app",
+    "status": "supported",
+    "via": "api",
+    "lastCheckedAt": "2026-10-23T13:35:24.719Z"
+  },
+  {
+    "id": "apps.deploy.source",
+    "label": "استقرار سورس کد / Deploy from source",
+    "status": "supported",
+    "via": "cli",
+    "notes": "استقرار کامل سورس کد محلی از طریق دستور liara deploy در CLI انجام می‌شود"
+  },
+  {
+    "id": "apps.deploy.image",
+    "label": "استقرار ایمیج داکر / Deploy Docker image",
+    "status": "supported",
+    "via": "api"
+  },
+  {
+    "id": "apps.releases.list",
+    "label": "لیست رلیزها / List releases",
+    "status": "supported",
+    "via": "api",
+    "lastCheckedAt": "2026-10-23T13:35:24.719Z"
+  },
+  {
+    "id": "apps.restart",
+    "label": "ری‌استارت برنامه / Restart app",
+    "status": "supported",
+    "via": "api",
+    "restartsApp": true,
+    "lastCheckedAt": "2026-10-23T13:35:24.719Z"
+  },
+  {
+    "id": "apps.stop_start",
+    "label": "توقف و شروع برنامه / Stop & start app",
+    "status": "supported",
+    "via": "api",
+    "restartsApp": true
+  },
+  {
+    "id": "apps.logs.read",
+    "label": "خواندن لاگ‌ها / Read app logs",
+    "status": "supported",
+    "via": "api",
+    "lastCheckedAt": "2026-10-23T13:35:24.719Z"
+  },
+  {
+    "id": "apps.logs.stream",
+    "label": "استریم زنده لاگ‌ها / Stream logs",
+    "status": "partial",
+    "via": "cli",
+    "notes": "استریم بلادرنگ لاگ‌ها از طریق دستور liara app:logs -f در CLI انجام می‌شود"
+  },
+  {
+    "id": "apps.metrics.read",
+    "label": "خواندن متریک‌ها (CPU/RAM) / Read metrics",
+    "status": "supported",
+    "via": "api",
+    "lastCheckedAt": "2026-10-23T13:35:24.719Z"
+  },
+  {
+    "id": "apps.env.list",
+    "label": "مشاهده متغیرهای محیطی / List env vars",
+    "status": "supported",
+    "via": "api",
+    "lastCheckedAt": "2026-10-23T13:35:24.719Z"
+  },
+  {
+    "id": "apps.env.set",
+    "label": "تنظیم متغیر محیطی / Set env var",
+    "status": "supported",
+    "via": "api",
+    "restartsApp": true,
+    "lastCheckedAt": "2026-10-23T13:35:24.719Z"
+  },
+  {
+    "id": "apps.env.unset",
+    "label": "حذف متغیر محیطی / Unset env var",
+    "status": "supported",
+    "via": "api",
+    "restartsApp": true
+  },
+  {
+    "id": "apps.plan.list",
+    "label": "لیست پلن‌ها و منابع / List plans",
+    "status": "supported",
+    "via": "api",
+    "notes": "4 plans available",
+    "lastCheckedAt": "2026-10-23T13:35:24.719Z"
+  },
+  {
+    "id": "apps.plan.change",
+    "label": "تغییر پلن و ارتقا / Change plan/resize",
+    "status": "supported",
+    "via": "api",
+    "restartsApp": true
+  },
+  {
+    "id": "apps.domains.list",
+    "label": "مشاهده دامنه‌ها / List domains",
+    "status": "supported",
+    "via": "api",
+    "lastCheckedAt": "2026-10-23T13:35:24.719Z"
+  },
+  {
+    "id": "apps.domains.add",
+    "label": "افزودن دامنه / Add domain",
+    "status": "supported",
+    "via": "api"
+  },
+  {
+    "id": "dns.records.list",
+    "label": "مشاهده رکوردهای DNS / List DNS records",
+    "status": "partial",
+    "via": "api",
+    "notes": "تنها برای دامنه‌های مدیریت‌شده روی DNS لیارا"
+  },
+  {
+    "id": "dns.records.add",
+    "label": "ثبت رکورد DNS / Add DNS record",
+    "status": "partial",
+    "via": "api"
+  },
+  {
+    "id": "databases.list",
+    "label": "لیست دیتابیس‌ها / List databases",
+    "status": "supported",
+    "via": "api"
+  },
+  {
+    "id": "account.balance",
+    "label": "موجودی و وضعیت حساب / Account balance",
+    "status": "supported",
+    "via": "api",
+    "notes": "Balance: 5000000",
+    "lastCheckedAt": "2026-10-23T13:35:24.719Z"
+  }
+]
